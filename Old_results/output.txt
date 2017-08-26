@@ -1,0 +1,15 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hDataset data_obs not found.
+[#0] ERROR:InputArguments --  RooWorkspace::argSet(w) no RooAbsArg named "tqqnormSF" in workspace
+[#0] ERROR:InputArguments --  RooWorkspace::argSet(w) no RooAbsArg named "tqqeffSF" in workspace
+Freezing the following nuisance parameters: RooArgSet:: = ()
+The signal model has no nuisance parameters. Please run the limit tool with no systematics (option -S 0).
+To make things easier, I will assume you have done it.
+Computing limit starting from expected outcome
+Set default minimizer to Minuit2, tolerance 0.01
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset _Asymptotic_asimovDataset_
+Fit to asimov dataset:
+[#0] WARNING:Minization -- RooMinimizer::save: Error, run minimization before!

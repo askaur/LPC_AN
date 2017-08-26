@@ -1,0 +1,15 @@
+# automatic generated counting experiment
+imax 1  number of channels
+jmax 1  number of backgrounds
+kmax 2  number of nuisance parameters (sources of systematical uncertainties)
+------------
+bin 1
+observation 0
+------------
+bin              1     1    
+process         HH   ttbar  
+process          0     1    
+rate            107  52861  
+------------
+xs_HH   lnN    1.02    -    cross section + signal efficiency + other minor ones
+ttbar   lnN      -   1   
